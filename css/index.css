@@ -20,6 +20,7 @@ font: inherit;
 vertical-align: baseline;  
 }
 /*GENERAL STYLES*/
+
 html{
     font-size:62.5%;
 }
@@ -133,4 +134,54 @@ button:hover{
 }
 .artist img{
     width:100%;
+}
+
+/* PHONE SECTION */
+
+
+@media(max-width: 500px){
+
+    nav{
+        width: 65%;
+    }
+
+    .title-container{
+        width:100%;
+    }
+
+    .title-container div{
+        width:100%;
+    }
+
+    .title-container hr{
+        width: 100%;
+    }
+
+    .artist{
+        width: 100%;
+    }
+
+    .artists-container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 15vh;
+    }
+
+    .artists-container img{
+        width: 60%;
+        height: 30vh;
+    }
+
+    .artist a{
+        font-size: 1.5rem;
+    }
+
+    .bio{
+        font-size: 1rem;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 3vh;
+    }
+
+
 }
